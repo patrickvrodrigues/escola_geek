@@ -1,0 +1,89 @@
+body{
+    background: #c8ead4;
+    text-align: center;
+    
+}
+
+.login-area{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.box {
+    width: 900px;
+    height: 300px;
+    }
+
+    .myButton {
+        background-color:#5d9ca9;
+        border-radius:6px;
+        display:inline-block;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+    }
+    .myButton:hover {
+        background-color:#195d6b;
+    }
+    
+    input{
+        border:0px ;
+     }
+
+img{
+    padding-bottom: 10px;
+}
+
+.input-user {
+    background-image: url("icons/do-utilizador.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+
+    padding: 10px 5px 10px 20px;
+    text-indent: 20px;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+ 
+}
+
+.input-password {
+    background-image: url("icons/password.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+
+    padding: 10px 5px 10px 20px;
+    text-indent: 20px;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+
+ 
+}
+
+.input-login {
+    background-image: url("icons/entrar.png");
+    background-position: 105px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+}
